@@ -226,3 +226,7 @@ a {
   color: var(--hero-color);
   background-color: var(--accent-color);
 }
+
+.container {
+  width: 1200px;
+}
