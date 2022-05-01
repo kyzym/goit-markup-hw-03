@@ -78,7 +78,23 @@ a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
   outline: 2px solid greenyellow;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+}
+
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .site-nav a:hover,
@@ -87,7 +103,15 @@ a {
 }
 
 /* site adr */
+.adress {
+  display: flex;
+  margin-left: auto;
+}
+.adress .item:not(:last-child) {
+  margin-right: 50px;
+}
 .adress a {
+  display: flex;
   color: var(--sub-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -251,7 +275,7 @@ a {
 }
 
 .container {
-  width: 1200px;
+  width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
