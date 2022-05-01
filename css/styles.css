@@ -37,6 +37,7 @@ a {
   --sub-color: #f5f4fa;
   --hero-color: #fff;
   --foot-sub-color: rgba(255, 255, 255, 0.6);
+  --btn-hover-color: #188ce8;
 }
 
 .site-nav .link.current {
@@ -104,6 +105,7 @@ a {
 .hero {
   background-color: var(--bg-color);
   outline: 2px solid greenyellow;
+  text-align: center;
 }
 .hero-title {
   color: var(--hero-color);
@@ -114,6 +116,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   outline: 2px solid greenyellow;
+  margin-bottom: 30px;
 }
 
 .hero-button {
@@ -124,7 +127,17 @@ a {
   font-size: 16px;
   line-height: 1.88;
   cursor: pointer;
+
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+  padding: 10px 32px;
+
   outline: 2px solid greenyellow;
+}
+.hero-button:hover {
+  background-color: var(--btn-hover-color);
 }
 
 /* features */
@@ -194,6 +207,9 @@ a {
   line-height: 1.71;
   outline: 2px solid greenyellow;
 }
+.mail-tel a:hover {
+  color: var(--accent-color);
+}
 
 .port-title {
   color: var(--title-color);
@@ -218,20 +234,44 @@ a {
   font-size: 16px;
   line-height: 1.63;
   cursor: pointer;
-  outline: 2px solid greenyellow;
+  text-align: center;
+  border: none;
+
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
 }
 
 .port-button:hover,
 .port-button:focus {
   color: var(--hero-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .container {
   width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+ul,
+h1,
+h2,
+h3,
+li,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  outline: 2px solid greenyellow;
 }
