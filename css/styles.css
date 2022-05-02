@@ -40,6 +40,11 @@ a {
   --btn-hover-color: #188ce8;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .site-nav .link.current {
   color: var(--accent-color);
 }
@@ -193,6 +198,17 @@ a {
   line-height: 1.71;
   outline: 2px solid greenyellow;
 }
+/* skills/ 3 picture */
+.skills {
+  display: flex;
+}
+.skills .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.skill {
+  padding-top: 0;
+}
 
 /* section color */
 .section-title {
@@ -201,6 +217,7 @@ a {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  margin-bottom: 50px;
   outline: 2px solid greenyellow;
 }
 
@@ -293,11 +310,6 @@ a {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-}
-
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 ul,
