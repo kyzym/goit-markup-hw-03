@@ -136,7 +136,7 @@ a {
   outline: 2px solid greenyellow;
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 .hero-title {
   color: var(--hero-color);
@@ -172,9 +172,16 @@ a {
 }
 
 /* features */
+.features {
+  display: flex;
+}
+.features .item:not(:last-child) {
+  margin-right: 30px;
+}
+
 .features-title {
   color: var(--title-color);
-
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -282,7 +289,7 @@ a {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
