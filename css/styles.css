@@ -222,6 +222,17 @@ a {
 }
 
 /* our command */
+.our-peoples {
+  display: flex;
+}
+
+.our-peoples .item:not(:last-child) {
+  margin-right: 30px;
+}
+.our-peoples .item {
+  text-align: center;
+}
+
 .our-comand {
   background-color: var(--sub-color);
 }
@@ -231,12 +242,14 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 30px;
   outline: 2px solid greenyellow;
 }
 
 .comand-roles {
   font-size: 16px;
   line-height: 1.19;
+  margin-top: 10px;
   outline: 2px solid greenyellow;
 }
 
