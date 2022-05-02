@@ -27,6 +27,11 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 /* обьявляем цвета */
 :root {
   --title-color: #212121;
@@ -38,6 +43,8 @@ a {
   --hero-color: #fff;
   --foot-sub-color: rgba(255, 255, 255, 0.6);
   --btn-hover-color: #188ce8;
+  --card-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .section {
@@ -76,6 +83,9 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  margin-bottom: 20px;
+  display: inline-block;
+
   outline: 2px solid greenyellow;
 }
 
@@ -231,6 +241,9 @@ a {
 }
 .our-peoples .item {
   text-align: center;
+  box-shadow: var(--card-box-shadow);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
 .our-comand {
@@ -251,11 +264,16 @@ a {
   line-height: 1.19;
   margin-top: 10px;
   outline: 2px solid greenyellow;
+  margin-bottom: 30px;
 }
 
 /* footer */
 .page-footer {
   background-color: var(--bg-color);
+  /* height: 252px; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+
   outline: 2px solid greenyellow;
 }
 
@@ -264,21 +282,36 @@ a {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin-bottom: 9px;
   outline: 2px solid greenyellow;
 }
 
 .mail-tel a {
   color: var(--foot-sub-color);
   font-style: normal;
-
   font-size: 14px;
   line-height: 1.71;
+
   outline: 2px solid greenyellow;
 }
 .mail-tel a:hover {
   color: var(--accent-color);
 }
 
+.foot-mail {
+  margin-bottom: 9px;
+}
+
+/* .foot-tel {} */
+
+/* .mail-tel {
+ 
+} */
+
+/* .foot {
+  margin-bottom: 20px;
+  display: inline-block;
+} */
 .port-title {
   color: var(--title-color);
   letter-spacing: 0.06em;
@@ -337,4 +370,8 @@ p {
 
 header {
   outline: 2px solid greenyellow;
+}
+
+address * {
+  background-color: tomato;
 }
