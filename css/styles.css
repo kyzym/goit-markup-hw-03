@@ -32,7 +32,7 @@ img {
   max-width: 100%;
 }
 
-/* обьявляем цвета */
+/* обьявляем переменные */
 :root {
   --title-color: #212121;
   --sub-test-color: #757575;
@@ -67,6 +67,7 @@ img {
 
 .logo-acnt {
   color: var(--accent-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -75,10 +76,12 @@ img {
 
 .logo {
   color: var(--logo-color);
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+
   display: block;
   padding-top: 25px;
   padding-bottom: 24px;
@@ -89,6 +92,7 @@ img {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
+
   line-height: 1.19;
   margin-bottom: 20px;
   display: inline-block;
@@ -101,6 +105,7 @@ img {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
@@ -134,12 +139,13 @@ img {
   margin-right: 50px;
 }
 .adress a {
-  display: flex;
   color: var(--sub-text-color);
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
+
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -152,8 +158,8 @@ img {
 /* hero */
 .hero {
   background-color: var(--bg-color);
-
   text-align: center;
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -181,8 +187,8 @@ img {
 
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-
   border-radius: 4px;
+
   padding: 10px 32px;
 }
 .hero-button:hover {
@@ -228,6 +234,7 @@ img {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+
   margin-bottom: 50px;
 }
 
@@ -259,6 +266,7 @@ img {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+
   margin-bottom: 10px;
 }
 
@@ -280,6 +288,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+
   margin-bottom: 9px;
 }
 
@@ -305,6 +314,7 @@ img {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+
   margin-bottom: 4px;
 }
 /* portfolio text */
@@ -316,11 +326,9 @@ img {
 .port-buttons {
   display: flex;
   justify-content: center;
+
   margin-bottom: 50px;
 }
-/* .item-btn {
-  display: flex;
-} */
 
 .port-buttons .item-btn:not(:last-child) {
   margin-right: 9px;
@@ -363,7 +371,6 @@ img {
 
 .card-content {
   padding: 20px 24px;
-
   border-right: var(--card-border);
   border-bottom: var(--card-border);
   border-left: var(--card-border);
