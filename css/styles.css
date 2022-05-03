@@ -67,7 +67,6 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  outline: 2px solid greenyellow;
 }
 
 .logo {
@@ -79,7 +78,6 @@ img {
   display: block;
   padding-top: 25px;
   padding-bottom: 24px;
-  outline: 2px solid greenyellow;
 }
 
 .logo-foot {
@@ -104,11 +102,11 @@ img {
   padding-top: 32px;
   padding-bottom: 32px;
   display: block;
-  outline: 2px solid greenyellow;
 }
 .header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-nav {
@@ -142,7 +140,6 @@ img {
   line-height: 16px;
   padding-top: 32px;
   padding-bottom: 32px;
-  outline: 2px solid greenyellow;
 }
 
 .adress a:hover,
@@ -153,7 +150,7 @@ img {
 /* hero */
 .hero {
   background-color: var(--bg-color);
-  outline: 2px solid greenyellow;
+
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -166,7 +163,7 @@ img {
   line-height: 1.36;
   text-align: center;
   text-transform: uppercase;
-  outline: 2px solid greenyellow;
+
   margin-bottom: 30px;
 }
 
@@ -185,8 +182,6 @@ img {
 
   border-radius: 4px;
   padding: 10px 32px;
-
-  outline: 2px solid greenyellow;
 }
 .hero-button:hover {
   background-color: var(--btn-hover-color);
@@ -207,12 +202,10 @@ img {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  outline: 2px solid greenyellow;
 }
 .features-text {
   font-size: 14px;
   line-height: 1.71;
-  outline: 2px solid greenyellow;
 }
 /* skills/ 3 picture */
 .skills {
@@ -234,7 +227,6 @@ img {
   line-height: 1.17;
   text-align: center;
   margin-bottom: 50px;
-  outline: 2px solid greenyellow;
 }
 
 /* our command */
@@ -262,25 +254,21 @@ img {
   font-size: 16px;
   line-height: 1.19;
   margin-top: 30px;
-  outline: 2px solid greenyellow;
 }
 
 .comand-roles {
   font-size: 16px;
   line-height: 1.19;
   margin-top: 10px;
-  outline: 2px solid greenyellow;
+
   margin-bottom: 30px;
 }
 
 /* footer */
 .page-footer {
   background-color: var(--bg-color);
-  /* height: 252px; */
   padding-top: 60px;
   padding-bottom: 60px;
-
-  outline: 2px solid greenyellow;
 }
 
 .footer-adr {
@@ -308,16 +296,8 @@ img {
   margin-bottom: 9px;
 }
 
-/* .foot-tel {} */
+/* portfolio */
 
-/* .mail-tel {
- 
-} */
-
-/* .foot {
-  margin-bottom: 20px;
-  display: inline-block;
-} */
 .port-title {
   color: var(--title-color);
   letter-spacing: 0.06em;
@@ -372,10 +352,6 @@ li,
 p {
   padding: 0;
   margin: 0;
-}
-
-header {
-  outline: 2px solid greenyellow;
 }
 
 address * {
