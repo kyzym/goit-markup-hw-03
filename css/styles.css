@@ -253,15 +253,14 @@ img {
   background-color: #fff;
 }
 
-.our-comand {
+.our-command {
   background-color: var(--sub-color);
 }
-
-.comand-img {
-  margin-bottom: 30px;
+.command-content {
+  padding: 30px;
 }
 
-.comand-name {
+.command-name {
   color: var(--title-color);
   font-weight: 500;
   font-size: 16px;
@@ -270,10 +269,9 @@ img {
   margin-bottom: 10px;
 }
 
-.comand-roles {
+.command-roles {
   font-size: 16px;
   line-height: 1.19;
-  margin-bottom: 30px;
 }
 
 /* footer */
